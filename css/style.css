@@ -114,7 +114,7 @@ a{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    z-index: -5;
+    z-index: 0;
 }
 
 .header-site .nom-site li{
