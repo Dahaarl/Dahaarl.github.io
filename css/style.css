@@ -496,9 +496,29 @@ div.ligne-footer {
     div.ligne {
     margin-top: 10%;
     }
+
+    #photos img{
+        width: 80%;
+    }
+    #photos-portrait {
+    width: 100%;
+    margin-top: 7.75%;
+    margin-bottom: 8.75%;
+    }
+    #photos-portrait li {
+    width: 70%;
+    }
+    #photos-portrait li:first-child {
+    margin-right: -50%;
+    transform: translateX(-12%) rotate(-90deg);
+    }
+    #photos-portrait li:last-child {
+    transform: translateX(17%) rotate(-90deg);
+    }
     footer {
     padding-bottom: 5%;
     }
+
 }
 
 /*      MOBILE RESOLUTION    */
