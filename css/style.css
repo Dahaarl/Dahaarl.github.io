@@ -416,7 +416,7 @@ div.ligne-footer {
     }
 
 
-
+    /* PHOTOS */
     #photos img{
         width: 80%;
     }
@@ -435,6 +435,9 @@ div.ligne-footer {
     #photos-portrait li:last-child {
     transform: translateX(17%) rotate(-90deg);
     }
+    #portrait-alone{
+    transform: translateX(-28%) rotate(-90deg) !important;
+}
 }
 
 @media screen and (max-width: 850px) {
