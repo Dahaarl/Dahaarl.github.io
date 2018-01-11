@@ -485,7 +485,12 @@ div.ligne-footer {
     }
 
     .fa-angle-left{
-        left: -5% !important;
+        top: -5% !important;
+        left: -0% !important;
+    }
+    .fa-angle-left.photos{
+        top: -62.5% !important;
+        left: -0% !important;
     }
     #shorts li {
         width: 45%;
@@ -548,6 +553,17 @@ div.ligne-footer {
         transform: translate(-50%, -50%);
         z-index: 22;
     }
+    /*    BOUTON RETOUR    */
+    .fa-angle-left{
+        top: -5.5% !important;
+        left: -0% !important;
+    }
+    .fa-angle-left.photos{
+        top: -1% !important;
+        left: -0% !important;
+        z-index: 50;
+    }
+
     /*    PAGE CATEGORIES    */
     div.ligne {
     margin-top: 15%;
