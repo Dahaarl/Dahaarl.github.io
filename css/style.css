@@ -544,6 +544,7 @@ div.ligne-footer {
     .header-site #icon-menu{
         display: block;
         cursor: pointer;
+        z-index: 5;
     }
     #menu-mobile {
         display: none;
