@@ -97,6 +97,9 @@ a{
     font-weight: 300;
     color: #ffffff;
     cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    top: 0
 }
 
 .header-site #menu {
