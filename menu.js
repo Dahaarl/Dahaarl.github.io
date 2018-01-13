@@ -7,16 +7,16 @@
 
     // AFFICHE DANS QUELLE PAGE ON SE TROUVE
     switch(String(current_page)) {
-    case "SHORTS":
+    case "AUGUSTE LEFORT | SHORTS":
         shortsStyle = `style="color: #C0C0C0; cursor: default;"`;
         break;
-    case "ABOUT":
+    case "AUGUSTE LEFORT | ABOUT":
         aboutStyle = `style="color: #C0C0C0; cursor: default;"`;
         break;
-    case "APPS":
+    case "AUGUSTE LEFORT | APPS":
         appsStyle = `style="color: #C0C0C0; cursor: default;"`;
         break;
-    case "OTHER STUFF":
+    case "AUGUSTE LEFORT | OTHER STUFF":
         otherStuffStyle = `style="color: #C0C0C0; cursor: default;"`;
         break;
 }
@@ -25,26 +25,26 @@
     var menu = `
         <header class="header-site">
             <div id="menu">
-                <a href="index.html">
+                <a href="index.html" title="Go to homepage">
                     <ul class="nom-site">
                         <li><h1>Auguste Lefort</h1></li>
                     </ul>
                 </a>
 
                 <ul class="categories">
-                    <li><a href="shorts.html" ` + shortsStyle + `>shorts</a></li>
-                    <li><a href="apps.html" ` + appsStyle + `>apps</a></li>
-                    <li><a href="other_stuff.html" ` + otherStuffStyle + `>other stuff</a></li>
-                    <li><a href="about.html" ` + aboutStyle + `>about</a></li>
+                    <li><a href="shorts.html" title="Go to shorts" ` + shortsStyle + `>shorts</a></li>
+                    <li><a href="apps.html" title="Go to apps" ` + appsStyle + `>apps</a></li>
+                    <li><a href="other_stuff.html" title="Go to other stuff" ` + otherStuffStyle + `>other stuff</a></li>
+                    <li><a href="about.html" title="Go to about" ` + aboutStyle + `>about</a></li>
                 </ul>
             </div>
-            <img src="img/menu.png" id="icon-menu"/>
+            <img src="img/menu.png" alt="Menu icon" id="icon-menu"/>
         </header>
         <ul id="menu-mobile">
-            <li><a href="shorts.html" ` + shortsStyle + `>shorts</a></li>
-            <li><a href="apps.html" ` + appsStyle + `>apps</a></li>
-            <li><a href="other_stuff.html" ` + otherStuffStyle + `>other stuff</a></li>
-            <li><a href="about.html" ` + aboutStyle + `>about</a></li>
+            <li><a href="shorts.html" title="Go to shorts" ` + shortsStyle + `>shorts</a></li>
+            <li><a href="apps.html" title="Go to apps" ` + appsStyle + `>apps</a></li>
+            <li><a href="other_stuff.html" title="Go to other stuff" ` + otherStuffStyle + `>other stuff</a></li>
+            <li><a href="about.html" title="Go to about" ` + aboutStyle + `>about</a></li>
         </ul>
 `
     // AFICHER MENU
