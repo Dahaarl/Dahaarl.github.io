@@ -15,7 +15,7 @@ var menu = `
                 <li><a href="../about.html" title="Go to about">about</a></li>
             </ul>
         </div>
-        <img src="img/menu.png" alt="Menu icon" id="icon-menu"/>
+        <img src="../img/menu.png" alt="Menu icon" id="icon-menu"/>
     </header>
     <ul id="menu-mobile">
         <li><a href="../shorts.html" title="Go to shorts">shorts</a></li>
