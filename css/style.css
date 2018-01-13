@@ -68,7 +68,7 @@ a{
 .header-accueil #menu li{
     margin: 0 2%;
     display: inline-block;
-    font-size: 40px;
+    font-size: 37px;
     /* font-size: 2.5vw; */
     font-weight: 300;
 }
@@ -464,7 +464,7 @@ div.ligne-footer {
         margin-top: 0.5%;
     }
     .header-accueil #menu li {
-        font-size: 5vw;
+        font-size: 4.25vw;
     }
 
     #header-accueil #accueil-menu{
