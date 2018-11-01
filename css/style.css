@@ -222,7 +222,7 @@ div.ligne{
     padding: 1%;
 }
 .software{
-    width: 48% !important;
+    width: 50% !important;
     display: block !important;
 }
 #shorts li img{
@@ -503,7 +503,7 @@ div.ligne-footer {
         width: 45%;
     }
     .software{
-        width: 85% !important;
+        width: 100% !important;
     }
     #photos {
     margin-top: 30%;
@@ -592,7 +592,7 @@ div.ligne-footer {
         width: 45%;
     }
     .software{
-        width: 85% !important;
+        width: 100% !important;
     }
     #photos {
     margin-top: 40%;
