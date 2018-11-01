@@ -221,6 +221,10 @@ div.ligne{
     width: 22%;
     padding: 1%;
 }
+#shorts li #software{
+    width: 50%;
+    display: block;
+}
 #shorts li img{
     border-radius: 7px;
 }
@@ -498,6 +502,9 @@ div.ligne-footer {
     #shorts li {
         width: 45%;
     }
+    #shorts li #software{
+        width: 100%;
+    }
     #photos {
     margin-top: 30%;
     }
@@ -583,6 +590,9 @@ div.ligne-footer {
     }
     #shorts li {
         width: 45%;
+    }
+    #shorts li #software{
+        width: 100%;
     }
     #photos {
     margin-top: 40%;
