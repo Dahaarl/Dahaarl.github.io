@@ -222,8 +222,8 @@ div.ligne{
     padding: 1%;
 }
 .software{
-    width: 50%; !important
-    display: block; !important
+    width: 50% !important;
+    display: block !important;
 }
 #shorts li img{
     border-radius: 7px;
@@ -503,7 +503,7 @@ div.ligne-footer {
         width: 45%;
     }
     .software{
-        width: 100%; !important
+        width: 100% !important;
     }
     #photos {
     margin-top: 30%;
@@ -592,7 +592,7 @@ div.ligne-footer {
         width: 45%;
     }
     .software{
-        width: 100%; !important
+        width: 100% !important;
     }
     #photos {
     margin-top: 40%;
