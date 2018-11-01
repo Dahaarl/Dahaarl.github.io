@@ -221,7 +221,7 @@ div.ligne{
     width: 22%;
     padding: 1%;
 }
-#shorts li #software{
+#shorts li .software{
     width: 50%; !important
     display: block; !important
 }
@@ -502,7 +502,7 @@ div.ligne-footer {
     #shorts li {
         width: 45%;
     }
-    #shorts li #software{
+    #shorts li .software{
         width: 100%; !important
     }
     #photos {
@@ -591,7 +591,7 @@ div.ligne-footer {
     #shorts li {
         width: 45%;
     }
-    #shorts li #software{
+    #shorts li .software{
         width: 100%; !important
     }
     #photos {
