@@ -6,7 +6,7 @@ var footer = `
         <a href="https://www.instagram.com/auguste.lefort/" title="Go to my Instagram account" target="_blank"><i class="fa fa-instagram" aria-hidden="true" style="font-size: 1.5em; color: #FFFFFF;"></i></a>
         <a href="https://twitter.com/AugusteLefort" title="Go to my Twitter account" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true" style="font-size: 1.5em; color: #FFFFFF;"></i></a>
         </br></br>
-        Auguste Lefort © 2018
+        Auguste Lefort © 2018 - 2019
         </br>
         Tous droits réservés
     </footer>
