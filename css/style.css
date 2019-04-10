@@ -234,7 +234,11 @@ div.ligne{
     -webkit-filter: grayscale(70%);
     filter: grayscale(70%);
 }
-
+#shorts h1{
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+}
 
 
 /****************  OTHER STUFF  *****************/
