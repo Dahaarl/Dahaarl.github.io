@@ -235,7 +235,8 @@ div.ligne{
     filter: grayscale(70%);
 }
 h1{
-    font-size: 15px;
+    font-size: 30px;
+    text-decoration: underline;
     font-weight: 300;
     color: #ffffff;
 }
