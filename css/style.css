@@ -30,48 +30,79 @@ a{
 
 /****************  HEADER ACCUEIL *****************/
 .header-accueil{
-    height: 25%;
-    width: 80%;
+    height: 550px;
+    width: 600px;
     position: fixed;
-    top: 52%; left: 50%; /* à 50%/50% du parent référent */
+    top: 50%; left: 50%; /* à 50%/50% du parent référent */
     transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
     text-align: center;
     z-index: 5;
+    background-color: rgba(20,40,39,0.5);
+    border-radius: 20px;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
 }
 
 .header-accueil h1{
-    font-size: 75px;
+    font-size: 30px;
     /* font-size: 4.6vw; */
-    line-height: 75px;
-    font-weight: 300;
+    line-height: 85px;
+    font-weight: 800;
     color: #ffffff;
+    padding-top: 11%;
 }
-
 
 .header-accueil #nom-site li{
     display: inline-block;
 }
+.header-accueil #nom-site{
+    height: 95px;
+    /* border: solid 2px white; */
+}
 .header-accueil #nom-site img{
     margin-left: 25%;
-    /* width: 7vw; */
     width: 80px;
+    transform: translateY(6%);
 }
 
 .header-accueil #menu{
-    height: 40px;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 0.5%;
-    margin-left: 1%;
+    height: 81%;
+    /* border: solid 2px white; */
+}
+
+.header-accueil #menu ul{
+    display: inline-block;
+    height: 100%;
+    width: 80%;
+    transform: translateY(9%);
 }
 
 .header-accueil #menu li{
-    margin: 0 2%;
-    display: inline-block;
-    font-size: 37px;
-    /* font-size: 2.5vw; */
+    width: 80%;
+    height: 35px;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    padding: 1%;
+    font-size: 20px;
+    text-align: left;
     font-weight: 300;
+    background: rgb(59,142,141);
+    background: linear-gradient(90deg, rgba(59,142,141,1) 3%, rgba(82,169,195,1) 97%);
+    border-radius : 10px;
 }
+
+.header-accueil #menu li:hover{
+  transform : scale(1.05, 1.05);
+}
+
+.header-accueil #menu li p{
+  width: 85%;
+  display: inline-block;
+  padding-top: 1.8%;
+  padding-left: 4%;
+}
+
 .header-accueil #menu li a:hover{
     color: #C0C0C0;
 }
@@ -91,10 +122,11 @@ a{
 }
 
 .header-site h1{
-    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
     /* font-size: 4.6vw; */
     line-height: 60px;
-    font-weight: 300;
     color: #ffffff;
     cursor: pointer;
     z-index: 1;
@@ -117,7 +149,14 @@ a{
     transform: translateY(-50%);
     z-index: 0;
 }
-
+.header-site #menu-icons{
+  display: inline-block;
+  /* margin:1%; */
+  width: 12%;
+}
+.header-site #menu-icons li{
+  margin: 0.5%;
+}
 .header-site .nom-site li{
     display: inline-block;
 }
@@ -126,9 +165,8 @@ a{
     width: 4vw;
 }
 
-
 .header-site .categories li{
-    margin: 0 2%;
+    margin: 0 1%;
     display: inline-block;
     font-size: 25px;
     /* font-size: 2.5vw; */
@@ -219,7 +257,7 @@ div.ligne{
 #shorts li{
     display: inline-block;
     width: 30%;
-    padding: 1%;
+    /* padding: 2%; */
 }
 .software{
     width: 50% !important;
@@ -246,6 +284,7 @@ div.ligne{
 /****************  OTHER STUFF  *****************/
 #other-stuff img{
     width: 100%;
+    z-index: -1;
 }
 #other-stuff{
     width: 100%;
@@ -258,28 +297,33 @@ div.ligne{
 #other-stuff h2{
     line-height: 140px;
     font-weight: 300;
-    color: #ffffff;
-    z-index: 10;
+    color: #fff;
+    /* z-index: 10; */
 }
 
 #other-stuff li{
     display: inline-block;
-    width: 100%;
+    width: 59.5%;
     height: 140px;
     overflow: hidden;
     margin-bottom: 2%;
+    border-radius: 7px;
 }
+
+#other-stuff li:hover{
+  transform : scale(1.05, 1.05);
+}
+
 #other-stuff li img{
     opacity: 0.8;
     filter: blur(5px);
     transform: translateY(-55%);
-    z-index: -10;
+    /* z-index: 10; */
 }
 #other-stuff li a img:hover{
-    opacity: 1;
+    /* opacity: 1; */
     transform : scale(10, 1.2);
     transform: translateY(-55%);
-    z-index: -10;
 }
 
 
@@ -297,7 +341,13 @@ article h1.shorts-page-titre{
     margin-top: -5%;
     margin-bottom: 2%;
 }
-
+article h3{
+    font-weight: 300;
+    color: #A0A0A0;
+    width: 100%;
+    text-align: right;
+    transform: translateY(-250%);
+}
 #contenu img{
     width: 100%;
 }
@@ -385,7 +435,7 @@ div.ligne-footer {
     background-color: #2d2d2d;
     border-radius: 20px;
     z-index: 0;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
 }
 
 
