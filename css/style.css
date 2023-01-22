@@ -508,11 +508,14 @@ div.ligne-footer {
     #header-accueil header{
     }
     .header-accueil {
-        top: 55%;
+        /* top: 55%; */
+        width: 90%;
+        height: 80%;
     }
     .header-accueil h1 {
-        font-size: 8vw;
-        line-height: 10vw;
+        font-size: 1.5em;
+        line-height: 1.5em;
+        padding-top: 2.2em;
     }
     .header-accueil #nom-site img {
         width: 9vw;
@@ -523,8 +526,17 @@ div.ligne-footer {
         margin: 0 auto;
         margin-top: 0.5%;
     }
+    .header-accueil #menu ul {
+        margin-top: 4%;
+    }
     .header-accueil #menu li {
-        font-size: 4.30vw;
+        font-size: 1.2em;
+        width: 90%;
+        margin-bottom: 4%;
+        height: 8%;
+        line-height: 1.2em;
+        padding-left: 2%;
+        padding-right: 4%;
     }
 
     #header-accueil #accueil-menu{
