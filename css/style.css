@@ -478,7 +478,7 @@ div.ligne-footer {
 
     /*    PAGE CATEGORIES    */
     div.ligne {
-    margin-top: 7%;
+        margin-top: 7%;
     }
     article h1.shorts-titre {
         width: 50% !important;
@@ -495,7 +495,6 @@ div.ligne-footer {
         font-weight: 300;
         color: #ffffff;
     }
-
     #header-accueil #accueil-menu{
         height: 40px;
         width: 50%;
@@ -510,7 +509,7 @@ div.ligne-footer {
     .header-accueil {
         /* top: 55%; */
         width: 90%;
-        height: 80%;
+        height: 90%;
     }
     .header-accueil h1 {
         font-size: 1.5em;
@@ -550,10 +549,11 @@ div.ligne-footer {
         width: 85%;
     }
     #contenu {
-    width: 100%;
+        width: 100%;
     }
     article h1.shorts-page-titre {
-    margin-bottom: 5%;
+        margin-bottom: 5%;
+        width: auto !important;
     }
     .header-site .categories li {
         font-size: 15px;
@@ -577,7 +577,14 @@ div.ligne-footer {
     margin-top: 30%;
     }
     #other-stuff {
-    margin-top: 30%;
+    margin-top: 35%;
+    }
+    #other-stuff li{
+      width: 85%;
+    }
+    #other-stuff h2{
+      line-height: 0px;
+      margin-top: 22%;
     }
     div.ligne {
     margin-top: 10%;
@@ -598,10 +605,11 @@ div.ligne-footer {
         width: 85%;
     }
     #contenu {
-    width: 100%;
+        width: 100%;
     }
     article h1.shorts-page-titre {
-    margin-bottom: 5%;
+        margin-bottom: 5%;
+        width: auto !important;
     }
     .header-site h1 {
         font-size: 25px;
@@ -609,7 +617,7 @@ div.ligne-footer {
         text-align: center;
         position: absolute;
         top: 50%;
-        left: 50%;
+        left: 45%;
         transform: translate(-50%, -50%);
         width: 100%;
     }
@@ -665,12 +673,9 @@ div.ligne-footer {
     #photos {
     margin-top: 40%;
     }
-    #other-stuff {
-    margin-top: 40%;
-    }
     #other-stuff li img {
         filter: blur(2px);
-        transform: translateY(-30%) !important;
+        /* transform: translateY(-30%) !important; */
     }
     footer {
     padding-bottom: 5%;
